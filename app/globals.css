@@ -1,9 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "daisyui";
 
 @theme {
-  --color-primary: #a855f7;
-  --color-base-100: #1d232a;
-  --color-base-200: #111827;
-  --color-base-300: #15191e;
+	--color-primary: #a855f7;
+	--color-base-100: #1d232a;
+	--color-base-200: #111827;
+	--color-base-300: #15191e;
 }

@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tiptap/extension-underline": "^2.11.5",
+    "@tiptap/pm": "^2.11.5",
+    "@tiptap/react": "^2.11.5",
+    "@tiptap/starter-kit": "^2.11.5",
     "cloudinary": "^2.6.0",
     "joi": "^17.13.3",
-    "mongoose": "^8.13.2",
-    "next": "15.3.1",
+    "mongoose": "^8.12.1",
+    "next": "15.2.2",
     "next-auth": "^4.24.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -21,9 +25,9 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "daisyui": "^5.0.27",
+    "daisyui": "^5.0.2",
     "eslint": "^9",
-    "eslint-config-next": "15.3.1",
+    "eslint-config-next": "15.2.2",
     "tailwindcss": "^4"
   }
 }

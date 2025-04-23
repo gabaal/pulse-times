@@ -2,8 +2,7 @@
 import Bookmark from "@/components/Bookmark";
 import History from "@/components/History";
 import Loader from "@/components/Loader";
-import SigninBtn from "@/components/SignInBtn";
-
+import SigninBtn from "@/components/SigninBtn";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -30,7 +29,7 @@ export default function Profile() {
             className="self-end text-center rounded-md w-20 h-10 bg-primary text-white"
             onClick={() => signOut()}
           >
-            Sign Out
+            Sign out
           </button>
           <Image
             src={session?.user?.image}
