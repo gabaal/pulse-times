@@ -26,6 +26,9 @@ export default async function AdminControls() {
           <Link href={"/admin-controls/news"}>
             <MenuItem Icon={MdNewspaper} Title={"News"} />
           </Link>
+          <Link href={"/admin-controls/url-shortener"}>
+            <MenuItem Icon={FaLink} Title={"URL Shortener"} />
+          </Link>
         </div>
       </div>
     );
